@@ -15,9 +15,9 @@
   
         // Create a <link> element and append it to the document head
         const link = $('<link>', {
-            rel: 'stylesheet',
-            type: 'text/css',
-            href: url
+          rel: 'stylesheet',
+          type: 'text/css',
+          href: url
         });
   
         $('head').append(link);
